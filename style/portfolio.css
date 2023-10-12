@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: antiquewhite;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+
+}
+
+nav {
+    display: flex;
+    padding: 40px 200px;
+    justify-content: space-between;
+
+}
+
+nav li {
+    list-style: none;
+
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 55px;
+
+}
+
+.raju {
+    color: red;
+}
+
+.btn {
+    background-color: orangered;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-right: 50px;
+    border-radius: 15px 25px;
+
+
+}
+
+.banner {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    font-size: large;
+    height: 630px;
+}
+
+.p {
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.am {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.rahman {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* main  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+    background-color: bisque;
+    padding: 80px 100px;
+    border-radius: 10px;
+}
+
+.headline {
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: medium;
+}
+
+.about-info-contenar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-titel {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.info-description {
+    font-weight: 100;
+}
+
+/* what-i-do */
+
+.what {
+    margin-top: 50px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+.what-des {
+    width: 840px;
+    padding: 50px 150px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: bisque;
+}
+
+.skill-contaner {
+    display: flex;
+    gap: 24px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 50px 100px;
+    justify-content: space-between;
+}
+
+.skill-titel {
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+    padding: 5px 10px;
+}
+
+/* resume style */
+.section-titel {
+    text-align: center;
+    margin: 0 100px;
+    background-color: bisque;
+
+}
+
+
+.resume-con {
+    display: flex;
+    gap: 24px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 150px;
+    justify-content: space-between;
+
+}
+
+.experience {
+    margin-left: 900px;
+
+}
+
+.resume-con-in {
+    width: 800px;
+    display: flex;
+    gap: 24px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 170px;
+    justify-content: space-between;
+
+}
+
+.space-in {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 600px;
+
+}
+
+.hi {
+    margin-bottom: 10px;
+}
+
+.hy {
+    margin-bottom: 10px;
+}
+
+.common {
+
+    font-weight: 40px;
+    line-height: 28px;
+}
+
+.btnn {
+    background-color: orangered;
+    color: whitesmoke;
+
+
+    margin-top: 10px;
+    margin-left: 500px;
+    border-radius: 35px 55px;
+
+}
+
+/* footer */
+.section {
+    width: 1000px;
+    height: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.connect {
+    margin-left: 10px;
+}
